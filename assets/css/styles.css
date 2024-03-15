@@ -120,3 +120,39 @@ body {
 .svg__icon:hover {
   filter: invert(0);
 }
+
+@media (max-width: 800px) {
+  .gallery {
+    width: 150px;
+    height: 150px;
+  }
+
+  .gallery-center {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery {
+    width: 100px;
+    height: 100px;
+  }
+
+  .gallery-center {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    width: 70px;
+    height: 70px;
+  }
+
+  .gallery-center {
+    width: 100px;
+    height: 100px;
+  }
+}
